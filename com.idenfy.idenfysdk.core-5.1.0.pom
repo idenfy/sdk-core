@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>idenfy</groupId>
   <artifactId>com.idenfy.idenfysdk.core</artifactId>
-  <version>5.0.0</version>
+  <version>5.1.0</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -69,7 +69,7 @@
     <dependency>
       <groupId>com.squareup.retrofit2</groupId>
       <artifactId>retrofit</artifactId>
-      <version>2.5.0</version>
+      <version>2.6.4</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
