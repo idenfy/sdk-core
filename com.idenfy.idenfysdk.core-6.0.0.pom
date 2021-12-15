@@ -9,9 +9,15 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>idenfy</groupId>
   <artifactId>com.idenfy.idenfysdk.core</artifactId>
-  <version>5.4.1</version>
+  <version>6.0.0</version>
   <packaging>aar</packaging>
   <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-parcelize-runtime</artifactId>
+      <version>1.4.21</version>
+      <scope>runtime</scope>
+    </dependency>
     <dependency>
       <groupId>androidx.constraintlayout</groupId>
       <artifactId>constraintlayout</artifactId>
@@ -74,14 +80,26 @@
     </dependency>
     <dependency>
       <groupId>com.squareup.retrofit2</groupId>
-      <artifactId>converter-gson</artifactId>
-      <version>2.5.0</version>
+      <artifactId>converter-scalars</artifactId>
+      <version>2.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.moshi</groupId>
+      <artifactId>moshi</artifactId>
+      <version>1.10.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.squareup.retrofit2</groupId>
-      <artifactId>converter-scalars</artifactId>
-      <version>2.1.0</version>
+      <artifactId>converter-moshi</artifactId>
+      <version>2.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.moshi</groupId>
+      <artifactId>moshi-kotlin</artifactId>
+      <version>1.8.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
